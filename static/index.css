@@ -1,0 +1,167 @@
+header
+{
+    background: black;
+    padding-bottom:0px;
+    margin-bottom:0px;
+    
+}
+body
+{
+    padding:0px;
+    margin:20px;
+}
+
+header p,div
+{
+    display:inline-block;
+}
+#circle
+{
+    height:25px;
+    width:25px;
+    border-radius:50%;
+    background-color:lightcoral;
+}
+#name
+{
+    font-size:30px;
+    font-family:Garamond;
+    font-weight:bold;
+    margin:0px;
+    color:white;
+}
+#job
+{
+    font-size:17px;
+    margin: 5px;
+    color:white;
+    
+}
+#links
+{
+    color:white;
+    float:right;
+    padding-bottom:0px;
+    margin-bottom:0px;
+}
+#links a
+{
+    color:white;
+}
+header p,div
+{
+    margin-top:0px;
+}
+header a 
+{
+  text-decoration: none; 
+  color:black;
+}
+
+#heading 
+{
+      
+    font-family:bahnschrift;
+  font-size: 50px;
+  font-weight: 1200;
+  background-image: radial-gradient(lightblue, yellow);
+  background-size: 250px;
+  background-repeat: repeat;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+    text-align: center;
+}
+
+h1
+{
+    padding-bottom:none;
+}
+#container
+{
+    display:flex;
+    align-items:center;
+    justify-content: center; 
+    
+}
+#summary
+{
+    font-size:25px;
+    color:white;
+  font-family:Garamond;    
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+#stream
+{
+    border:5px black solid;
+    padding-top:none;
+    border-radius:5%;
+    padding:0px;  
+    margin:0px;
+    
+}
+#summary a
+{
+    font-weight:300;
+    padding:3px;
+    text-decoration:none;
+    color:blue;
+    transition:all 1s ease;
+    
+    
+}
+#summary a:hover
+{
+    
+    color:yellow;
+}
+
+main
+{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("the_starry_night-wallpaper-2560x1600.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+    height:800px;
+  background-size:100% 800px;
+  transition: background-color 1s ease;
+    padding:0px;
+    margin:0px;
+    border-radius:12px;
+}
+
+
+p
+{
+    text-align:center;
+}
+footer
+{
+    color:white;
+    display:flex;
+   justify-content: center;
+    align-items:baseline;
+    padding:0px;
+    margin:0px;
+    background:black;
+}
+#insta,#LinkedIn,#Github
+{
+   
+    height:20px;
+    margin:0px 0px 0px 20px;
+    
+}
+footer p
+{
+    margin:0px;
+}
+html
+{
+    background:black;
+}
