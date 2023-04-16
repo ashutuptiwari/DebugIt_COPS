@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       
+        <link rel="stylesheet" type="text/css" href="static/index.css"/>
+               
+        
+        <title>Live Video Stream</title>
+    </head>
+    <body>
+        <header>
+           <div id="circle"></div>
+         <a href="https://ashutuptiwari.github.io/First-website/" id="name" target="_blank"> &nbsp;<b>Ashutosh Tiwari</b>&nbsp;</a> 
+           <p id="job">Web Developer</p>
+            <p id="links"><a href="https://ashutuptiwari.github.io/First-website/Resume.html">&nbsp;Resume&nbsp; |</a><a href="https://ashutuptiwari.github.io/First-website/projects.html">&nbsp;Projects &nbsp;|</a><a href="https://ashutuptiwari.github.io/First-website/contactshtml.html">&nbsp;Contacts</a></p>
+        </header>
+        <h1 id="heading" >Facial Emotion Recognition</h1>
+        <main>
+        
+        <div id="container"><img id="stream" src="{{ url_for('video_feed') }}" />
+            </main>
+            </div>
+        <div id="summary"><p>This is a facial emotion recognition system made using the <a href="https://pypi.org/project/deepface/>DeepFace">DeepFace</a> and <a href="https://docs.opencv.org/4.x/">Open CV </a>libraries, deployed using <a href="https://pypi.org/project/Flask-API/">FlaskAPI </a>and hosted by nothing cause apparently Heroku is paid, Render is giving errors which I can't debug and PythonAnywhere has a disk quota</p> </div>
+        
+    
+             <footer>
+              
+                <p>&copy;Ashutosh Tiwari</p>
+                 <a href="https://www.instagram.com/ashutuptiwari/" target="_blank"><img src="https://lh3.googleusercontent.com/o3rRUt3NK4NJVPSgOhQo1B0RGvAKqHQ-1AzDv0w28ZEao6TkXXYuD0kZVth8GmSxXdhq4hNiI_730ZcjV1VZSpf0aAQombpJQS9nm7FYMyKE9zn4-cjLrHty5A_kd6pHWp3P-x78LA=w2400"   id ="insta" ></a>
+                <a href="https://www.linkedin.com/in/ashutuptiwari/" target="_blank"><img src="https://lh3.googleusercontent.com/pajqArDe8uOxfljEEOF-DHPTaGnxZarXn2TVvYd7iTqUGFlneCHvgctNZgUnqJYBiRSHia68gERujEmidulcC4v_waDVMwTNBd6MWwYgXpwxS7TLRZbop1IcAl-z28ZeYmWjxVRRhA=w2400" id="LinkedIn"</a>
+                <a   href="https://github.com/ashutuptiwari"  target="_blank" ><img src="static/github-mark-white.png" id="Github" ></a>
+         </footer>
+        
+    
+       
+        
+    </body>
+    
+</html>
